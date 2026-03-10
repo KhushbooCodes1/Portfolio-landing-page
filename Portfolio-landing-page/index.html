@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Khushboo Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">Khushboo</h2>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu" onclick="toggleMenu()">☰</div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <p>Hello, I'm</p>
+
+        <h1>Khushboo</h1>
+
+        <h3>Frontend Developer</h3>
+
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+
+      <div class="hero-img">
+        <img src="images/hero.jpg" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a passionate and dedicated Frontend Developer with a strong
+        interest in creating modern, responsive, and user-friendly web
+        interfaces. I enjoy transforming ideas into visually appealing and
+        functional websites using technologies such as HTML, CSS, and
+        JavaScript.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+
+      <div class="skill-container">
+        <div class="skill-card">
+          <i class="devicon-html5-plain colored"></i>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="devicon-css3-plain colored"></i>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="devicon-bootstrap-plain colored"></i>
+          <h3>Responsive Design</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card">
+          <img src="images/project1.jpeg" />
+
+          <h3>Online Code Editor</h3>
+
+          <p>code editor interface focused on readability and usability</p>
+        </div>
+        <div class="project-card">
+          <img src="images/Myntra_c.jpeg" />
+
+          <h3>Myntra Clone (E-commerce UI)</h3>
+
+          <p>
+            e-commerce UI inspired by Myntra, supporting desktop, tablet, and
+            mobile layouts
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="images/Food_track.jpeg" />
+
+          <h3>Food Expiry Tracker</h3>
+          <p>UI application to track food expiry dates.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+
+      <div class="contact-container">
+        <form id="contactForm">
+          <div class="input-row">
+            <input type="text" id="name" placeholder="Your Name" />
+
+            <input type="email" id="email" placeholder="Your Email" />
+          </div>
+
+          <textarea id="message" placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Khushboo Portfolio</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
